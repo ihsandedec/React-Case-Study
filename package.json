@@ -3,18 +3,29 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@types/react": "^18.0.8",
-    "@types/react-dom": "^18.0.2",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sass": "^1.83.4",
+    "typescript": "^4.9.5",
+    "vite": "^6.0.11"
   },
   "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
     "start": "react-scripts start",
-    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
     "react-scripts": "latest"
-  }
+  },
+  "description": "Projede data.json isimli dosyada bir dizi bulunmaktadır.Bu dizi bir şirketin yazılım departmanına başvuran adayların ve case maillerinin gönderilme bilgilerini barındırmaktadır. Property anlamları şu şekildedir;",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

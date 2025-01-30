@@ -1,0 +1,90 @@
+/* Genel stil */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #4CAF50;
+  margin-bottom: 20px;
+}
+
+/* Tablo stili */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead tr {
+  background-color: #4CAF50;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+thead th {
+  padding: 12px 15px;
+}
+
+tbody td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #f1f9f1;
+}
+
+tbody tr[style*="background-color: red"] {
+  background-color: red !important;
+  color: white;
+}
+
+/* Buton stili */
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Sonuç bölgesi */
+.result {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #e74c3c;
+  margin-top: 20px;
+  display: none; /* Varsayılan olarak gizli */
+}
+
+/* Uygulama genel düzeni */
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+}

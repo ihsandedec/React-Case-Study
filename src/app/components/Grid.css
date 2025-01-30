@@ -1,0 +1,59 @@
+/* Genel stil */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    color: #333;
+  }
+  
+  /* Tablo stili */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Tablo başlığı */
+  thead tr {
+    background-color: #4CAF50;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  
+  thead th {
+    padding: 12px 15px;
+  }
+  
+  /* Tablo gövdesi */
+  tbody td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Zebra desenli satırlar */
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Hover efekti */
+  tbody tr:hover {
+    background-color: #f1f9f1;
+  }
+  
+  /* Kırmızı arka plana sahip satırlar */
+  tbody tr[style*="background-color: red"] {
+    color: white; /* Yazı rengini beyaz yap */
+  }
+  
+  /* Çözüm tarihi sütununu sola hizala */
+  .solutionSentDate {
+    text-align: left;
+  }
+  

@@ -1,0 +1,20 @@
+
+[
+  {
+    "name": "John",
+    "mailReceivedDate": "2021-10-01"
+    
+  },
+  {
+    "name": "Hans",
+    "mailReceivedDate": "2021-09-05",
+    "solutionSentDate": "2021-09-14",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Grater",
+    "mailReceivedDate": "2021-09-05",
+    "solutionSentDate": "2021-09-09",
+    "isBackgroundColorRed": true
+  }
+]
